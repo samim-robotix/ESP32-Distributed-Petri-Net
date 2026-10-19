@@ -1,0 +1,66 @@
+# ==============================================================================
+# Git Ignore Configuration for ESP32 Petri-Net Wireless Mesh Project
+# ==============================================================================
+
+# PlatformIO & Embedded Build Artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+*.hex
+*.bin
+*.elf
+*.o
+*.obj
+*.d
+*.map
+*.asm
+*.lst
+
+# Arduino IDE compilation outputs & cache
+build/
+*.build/
+*.arduino.hex
+*.arduino.bin
+
+# CMake & Native Toolchains
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Editor & IDE Local Workspaces
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/ipch/
+.vscode/.browse*
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+
+# Python (Virtual environments & byte-code)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Logs and Diagnostics
+*.log
+*.tmp
+*.bak
